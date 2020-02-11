@@ -27,8 +27,6 @@ pip install mlx9064x-visualizer
 
 ### Running mlx90640_demo.py
 
-1. get the sources and chdir to the project-examples directory
-2. run following command:
 ```bash
 mlx9064x-visualizer auto
 ```

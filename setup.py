@@ -2,7 +2,7 @@ from setuptools import setup
 import sys
 import platform
 
-version='1.1.2'
+version='1.1.3'
 
 requires = ['mlx9064x-driver>=1.1.3',
             ]
