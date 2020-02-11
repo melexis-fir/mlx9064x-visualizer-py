@@ -2,7 +2,7 @@ from setuptools import setup
 import sys
 import platform
 
-version='1.1.1'
+version='1.1.2'
 
 requires = ['mlx9064x-driver>=1.1.3',
             ]
@@ -35,7 +35,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     license='Apache License, Version 2.0',
-    entry_points = {'console_scripts': ['mlx9064x-dump-frame = mlx.examples.mlx90640_dump_frame:main']},
+    entry_points = {'console_scripts': ['mlx9064x-visualizer = examples.mlx90640_demo:main']},
     install_requires=requires,
     url = 'https://github.com/melexis-fir/mlx9064x-visualizer-py',   # Provide either the link to your github or to your website
     download_url = 'https://github.com/melexis-fir/mlx9064x-visualizer-py/archive/V'+version+'.tar.gz',
