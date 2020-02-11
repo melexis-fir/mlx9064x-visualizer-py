@@ -10,12 +10,8 @@ Currently this driver supports 3 type of interfaces:
 
 ## Dependencies
 
-Driver:
 - Python3
-- pySerial
-
-EVB user interface:
-- Python3
+- mlx9064x-driver
 - NumPy
 - Matplotlib
 - ctypes
@@ -25,16 +21,8 @@ EVB user interface:
 
 ## Getting started
 
-### Clone and update submodules
-
-1. clone the project using: 
 ```bash
-git clone https://github.com/melexis-fir/mlx9064x-visualizer-py.git
-```
-2. navigate to ./mlx9064x-visualizer-py/mlx9064x-driver-py and update submodule using:
-```bash
-git submodule init
-git submodule update
+pip install mlx9064x-visualizer
 ```
 
 ### Running mlx90640_demo.py
@@ -42,5 +30,5 @@ git submodule update
 1. get the sources and chdir to the project-examples directory
 2. run following command:
 ```bash
-python3 mlx90640_demo.py
+mlx9064x-visualizer auto
 ```
